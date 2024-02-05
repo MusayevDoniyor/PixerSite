@@ -1,0 +1,64 @@
+.hero {
+    width: 100%;
+    height: 418px;
+    margin-top: 125px;
+
+    .mainHero {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .leftDiv {
+        width: 470px;
+        height: 224px;
+
+        h1 {
+            width: auto;
+            height: 78px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 39px;
+        }
+
+        p {
+            width: 465px;
+            height: 74px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+
+        a {
+            width: 232px;
+            height: 40px;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 16px;
+            background-color: #00BAFC;
+            color: #FFF;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    .rightDiv,
+    .rightDiv iframe {
+        width: 458px;
+        height: 258px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+}

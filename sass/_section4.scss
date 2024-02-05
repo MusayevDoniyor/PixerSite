@@ -1,0 +1,93 @@
+.s4 {
+    width: 100%;
+    height: 625px;
+    margin-top: 50px;
+    padding: 25px 150px;
+    background-color: rgba(0, 186, 252, 1);
+
+    h3 {
+        width: auto;
+        height: 31px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31.2px;
+        text-align: center;
+        padding-top: 30px;
+        color: white;
+    }
+
+    .s4-p {
+        width: 719px;
+        height: 48px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        margin: 25px auto 75px;
+        padding-top: 25px;
+        color: white;
+    }
+
+    .main-s4 {
+        width: 348px;
+        height: 320px;
+        padding: 8px 0px;
+        margin: auto;
+        background-color: white;
+
+        form input,
+        input::placeholder,
+        select {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(0, 0, 0, 1);
+            padding-left: 10px;
+        }
+
+        form input:focus,
+        select {
+            outline: none;
+            border: none;
+        }
+
+        input,
+        select {
+            width: 300px;
+            height: 56px;
+            margin: 10px 25px;
+            border: none;
+            background-color: rgba(243, 243, 243, 1);
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+
+        select {
+            appearance: none;
+            padding: 8px 24px;
+            background-image: url(../images/selectIcon.svg);
+            background-repeat: no-repeat;
+            background-position: 270px center;
+        }
+
+        .btn {
+            width: 167px;
+            height: 40px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: white;
+            margin-top: 10px;
+            margin-left: 90px;
+            background-color: rgba(0, 186, 252, 1);
+        }
+
+    }
+}
